@@ -12,14 +12,16 @@ public class FirstArrayListExample {
 		firstArr.add("Nilu");
 		firstArr.add("Rivi");
 		firstArr.add("Rey");
+		
+		
+		firstArr.add("Maa");
+		firstArr.add("baba");
 		Iterator<String> firstIte=firstArr.iterator();
 		while(firstIte.hasNext())
 		{
 			System.out.println("Elements-->"+firstIte.next());
 		}
 		
-		firstArr.add("Maa");
-		firstArr.add("baba");
 		
 
 	}
