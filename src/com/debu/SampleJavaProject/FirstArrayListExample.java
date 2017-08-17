@@ -17,6 +17,10 @@ public class FirstArrayListExample {
 		{
 			System.out.println("Elements-->"+firstIte.next());
 		}
+		
+		firstArr.add("Maa");
+		firstArr.add("baba");
+		
 
 	}
 
