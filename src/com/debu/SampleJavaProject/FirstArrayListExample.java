@@ -2,6 +2,7 @@ package com.debu.SampleJavaProject;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class FirstArrayListExample {
 
@@ -20,6 +21,12 @@ public class FirstArrayListExample {
 		while(firstIte.hasNext())
 		{
 			System.out.println("Elements-->"+firstIte.next());
+		}
+		
+		ListIterator<String> iterator = firstArr.listIterator();
+		while(iterator.hasNext())
+		{
+			System.out.println("Elements-->"+iterator.next());
 		}
 		
 		
